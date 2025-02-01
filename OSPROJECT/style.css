@@ -1,0 +1,49 @@
+/* General Styling */
+window {
+  background-color: #2d2d2d; /* Dark background color */
+  font-family: Consolas, monospace;
+}
+
+/* Styling the Text Entry */
+#entry {
+  background-color: #333333; /* Dark input field */
+  color: #d4d4d4;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #3e3e3e;
+}
+
+#entry:focus {
+  border: 1px solid #00ff00; /* Green border when focused */
+}
+
+/* Styling the Text View (Output Area) */
+#textview {
+  background-color: #2e2e2e; /* Dark output area */
+  color: #c0c0c0;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #3e3e3e;
+}
+
+/* Styling Buttons */
+button {
+  background-color: #007acc; /* Blue button color */
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #005a9e; /* Darker blue when hovered */
+}
+
+button:active {
+  background-color: #003f73; /* Even darker blue when clicked */
+}
+
+button:focus {
+  outline: 2px solid #00ff00; /* Green outline on focus */
+}
